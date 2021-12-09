@@ -1,36 +1,20 @@
 # lisp
 
-#### Description
-基于mpc解析器组合库的lisp语言
+#### Introduce
+a mini lisp by C
 
-#### Software Architecture
-Software architecture description
-
-#### Installation
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
-
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### Directions for use
+1.  Source Code is Stored in code.
+    - lisp.c        the Source Code
+    - mpc.c         the Parser Combinator library
+    - mpc.h
+    - stdlib.lispy  the standard library
+2.  Executable file is Stored in exe.
+    - lisp (Linux)
+    - lisp.exe  (Windows)
+3.  Also , you can compile the source file by yourself.
+    The command is as follows,
+    - windows: gcc -std=c99 -Wall lisp.c mpc.c -o lisp
+    - Linux  : gcc -std=c99 -Wall lisp.c mpc.c -lreadline -lm -o lisp
+4.  Please note that the all source code is necessary when you compile the file.
+5.  One last thing is you can see the Help manual , if you has some questions when using it.
